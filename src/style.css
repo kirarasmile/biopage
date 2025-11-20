@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ba-bg text-ba-text overflow-x-hidden font-sans selection:bg-ba-primary selection:text-white;
+  /* 让点阵背景变淡一点，以免抢了动态粒子的风头 */
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 40px 40px; /* 间距变大 */
+}
+
+/* 滚动条样式美化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-ba-primary;
+}
