@@ -32,7 +32,7 @@
 <script setup lang="ts">
 // 1. 引入图片
 // 注意：根据你的文件结构，可能需要两层 ../ 才能回到 src 目录
-import bannerImg from '../../assets/noa_banner.png' 
+import bannerImg from '../../assets/noa_banner.webp' 
 
 // 如果图片挂了，显示一个纯色背景
 const handleError = (e: Event) => {
