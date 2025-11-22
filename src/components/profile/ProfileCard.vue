@@ -1,5 +1,5 @@
 <template>
-  <BaCard title="STUDENT_PROFILE" class="h-full">
+  <BaCard title="PROFILE" class="h-full">
     <div class="flex flex-col items-center text-center h-full gap-4 relative">
       
       <!-- 头像区 -->

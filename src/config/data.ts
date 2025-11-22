@@ -193,14 +193,14 @@ export const careerHistory = [
     period: "2025.4 - PRESENT",
     company: "Engram",
     role: "Data Engineer",
-    description: "负责与机器人搏斗",
+    description: "机器人肘击比赛冠军",
     current: true // 标记为当前工作
   },
   {
     period: "2022.2 - 2022.4",
     company: "iDreamSky",
     role: "DBA",
-    description: "我创建了100个版本的mysql.jpg",
+    description: "开发：我用了100个分支版本的mysql，除了5.6和8.0.jpg",
     current: false
   },
   {
