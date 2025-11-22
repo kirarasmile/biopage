@@ -10,11 +10,13 @@ import InteractiveBackground from './components/ui/InteractiveBackground.vue'
 import BaCard from './components/ui/BaCard.vue'
 import SystemTerminal from './components/ui/SystemTerminal.vue'
 import JobHistoryPanel from './components/profile/JobHistoryPanel.vue'
+import ClickEffect from './components/ui/ClickEffect.vue'
 
 const GITHUB_USERNAME = "kirarasmile" 
 </script>
 
 <template>
+  <ClickEffect /> <!-- 👈 全局点击特效 -->
   <InteractiveBackground />
 
   <main class="w-full min-h-screen p-4 lg:p-8 max-w-[1800px] mx-auto flex flex-col relative z-10 box-border">

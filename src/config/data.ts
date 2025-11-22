@@ -1,7 +1,7 @@
 // src/config/data.ts
 
 // 1. 【关键】在这里引入你的本地图片
-// 确保你的图片已经放在 src/assets/magnets/ 目录下，并且改了个简单的名字
+// 确保你的图片已经放在 src/assets/ 目录下，并且改了个简单的名字
 import pic486 from '../assets/486.webp' 
 import pic4862 from '../assets/486_2.webp' 
 import picdoll from '../assets/doll.webp' 
