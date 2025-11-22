@@ -50,7 +50,7 @@ const GITHUB_USERNAME = "kirarasmile"
          <div class="order-3 lg:order-none w-full shrink-0">
             <TechStackPanel />
          </div>
-        <div class="order-4 lg:order-none w-full shrink-0 lg:flex-1 lg:min-h-[160px]">
+        <div class="order-4 lg:order-none w-full lg:h-[240px] shrink-0 overflow-hidden">
           <JobHistoryPanel />
         </div>
          
@@ -97,7 +97,7 @@ const GITHUB_USERNAME = "kirarasmile"
     </div>
 
     <footer class="flex-none mt-12 text-center opacity-30 text-[9px] font-mono select-none order-last pb-4">
-      UID: 114514 | KIVOTOS ENG. DEPT
+      UID: 114514 | Power By KiraS
     </footer>
   </main>
 </template>

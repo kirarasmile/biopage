@@ -26,20 +26,20 @@ import pichyw from '../assets/hyw.webp'
 export const profileData = {
   nickname: "KiraS",
   tagline: "Full Stack Developer / Data Engineer",
-  bio: "AI真是太好用了家人们",
+  bio: "这里是被机器人肘飞的KiraS\n❤少女乐队/Nikke/BA/白毛相关，你也可以看看👉的磁贴墙\n并非开发，但是会动手build些自己喜欢的东西",
   // 头像也可以用同样的方法引入本地图片，或者保持网络链接
   avatarUrl: piccar, 
   socials: [
     { type: 'github', label: 'GitHub', url: 'https://github.com/kirarasmile' },
-    { type: 'twitter', label: 'Twitter', url: 'https://twitter.com' },
-    { type: 'email', label: 'Email', url: 'genjikira123@gmail.com' },
+    { type: 'qq', label: 'QQ', value: 'B64: MjgzOTIyNDM5Nw==' },
+    { type: 'email', label: 'Email', value: 'genjikira123@gmail.com' },
   ]
 };
 
 export const techStack = [
   { name: "Vue 3", level: "familiar", category: "frontend" },
   { name: "TypeScript", level: "learning", category: "frontend" },
-  { name: "Vibe coding", level: "proficient", category: "frontend" },
+  { name: "ML/DL ", level: "learning", category: "frontend" },
   { name: "Node.js", level: "familiar", category: "backend" },
   { name: "Python", level: "familiar", category: "backend" },
   { name: "data analysis", level: "proficient", category: "skills" },
@@ -193,14 +193,16 @@ export const careerHistory = [
     period: "2025.4 - PRESENT",
     company: "Engram",
     role: "Data Engineer",
-    description: "机器人肘击比赛冠军",
-    current: true // 标记为当前工作
+    description: "负责与机器人搏斗",
+    tags: ["ROS 2", "Python", "C++", "Docker"], // 新增
+    current: true
   },
   {
-    period: "2022.2 - 2022.4",
+    period: "2022.2 - 2024.4",
     company: "iDreamSky",
     role: "DBA",
-    description: "开发：我用了100个分支版本的mysql，除了5.6和8.0.jpg",
+    description: "我创建了100个版本的mysql.jpg",
+    tags: ["MySQL", "Redis", "Go", "Linux"], // 新增
     current: false
   },
   {
@@ -208,6 +210,7 @@ export const careerHistory = [
     company: "ZSXQ",
     role: "DA",
     description: "表弟",
+    tags: ["Excel", "SQL", "PowerBI"], // 新增
     current: false
   }
 ];

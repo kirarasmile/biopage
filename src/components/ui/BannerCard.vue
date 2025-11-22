@@ -20,7 +20,7 @@
         BioPage_Of_<span class="text-yellow-300">KiraS</span>
       </h2>
       <p class="text-sm font-medium opacity-90 mt-1 max-w-md text-blue-50">
-        "你为什么不玩疯狂原始人"
+        "gemini和chatgpt真是一对苦命鸳鸯"
       </p>
     </div>
 
